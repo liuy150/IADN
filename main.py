@@ -1,7 +1,6 @@
-import sys
+
 import time
 import argparse
-import pickle
 import os
 import logging
 import numpy as np

@@ -3,7 +3,6 @@ import torch
 import torch.nn as nn
 from torch.nn import Parameter
 import torch.nn.functional as F
-import numpy
 import math
 from torch_scatter import scatter
 import numpy as np

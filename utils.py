@@ -1,13 +1,11 @@
 import numpy as np
 import torch
-import pickle
 import scipy.sparse as sp 
 from scipy.sparse import coo_matrix, csr_matrix
 from collections import defaultdict
 from itertools import combinations
 from typing import List, Dict, Tuple
 from torch.utils.data import Dataset
-import torch_sparse
 from tqdm import tqdm
 from layers import *
 import networkx as nx
